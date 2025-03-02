@@ -52,20 +52,5 @@ Ensure you have the following installed:
 - Connect to the server using the provided IP address and port.
 - Start chatting with other users!
 
-## Contributing
-1. Fork the repository.
-2. Create a new branch:
-   ```sh
-   git checkout -b feature-branch-name
-   ```
-3. Make changes and commit:
-   ```sh
-   git commit -m "Add a new feature"
-   ```
-4. Push changes:
-   ```sh
-   git push origin feature-branch-name
-   ```
-5. Open a pull request on GitHub.
 
 

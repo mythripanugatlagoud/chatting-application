@@ -1,83 +1,71 @@
-# chatting-application
+# Chat Application
 
 ## Overview
-This is a real-time chat application that allows users to send and receive messages instantly. It supports multiple users and provides a simple and intuitive interface for communication.
+This is a Java-based real-time chat application, designed to enable users to send and receive messages instantly. It supports both private and group chats with a simple and intuitive interface.
 
 ## Features
 - Real-time messaging
+- Private and group chat support
 - User authentication
-- Private and group chats
-- Typing indicators
-- Online/offline status
-- Message notifications
 - Secure communication
+- Easy-to-use GUI
 
 ## Technologies Used
-- Frontend: HTML, CSS, JavaScript (React.js)
-- Backend: Node.js, Express.js
-- Database: MongoDB
-- WebSocket: Socket.io
-- Authentication: JWT (JSON Web Tokens)
+- Programming Language: Java
+- GUI Framework: Swing
+- Networking: Sockets
+- Build Tool: Apache Ant
 
 ## Installation
 
 ### Prerequisites
-Ensure you have the following installed on your system:
-- Node.js
-- MongoDB
+Ensure you have the following installed:
+- Java Development Kit (JDK 8 or later)
+- NetBeans IDE (Recommended)
 - Git
 
 ### Steps
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/chat-app.git
-   cd chat-app
+   git clone https://github.com/your-username/chat-application.git
+   cd chat-application
    ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Set up environment variables:
-   - Create a `.env` file in the root directory.
-   - Add the following:
+2. Open the project in NetBeans or another preferred IDE.
+3. Build the project using Apache Ant:
+   - Locate `build.xml` in the root directory.
+   - Run the build command:
+     ```sh
+     ant build
      ```
-     PORT=5000
-     MONGO_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
+4. Run the application:
+   - Start the server:
+     ```sh
+     java -jar Server.jar
      ```
-4. Start the backend server:
-   ```sh
-   npm start
-   ```
-5. Navigate to the frontend folder and install dependencies:
-   ```sh
-   cd frontend
-   npm install
-   ```
-6. Start the frontend server:
-   ```sh
-   npm start
-   ```
+   - Start the client:
+     ```sh
+     java -jar Client.jar
+     ```
 
 ## Usage
-- Open the application in your browser.
-- Register or log in to start chatting.
-- Create private or group chats.
-- Enjoy real-time messaging with other users.
+- Open the client application.
+- Connect to the server using the provided IP address and port.
+- Start chatting with other users!
 
 ## Contributing
 1. Fork the repository.
-2. Create a feature branch:
+2. Create a new branch:
    ```sh
    git checkout -b feature-branch-name
    ```
-3. Commit changes:
+3. Make changes and commit:
    ```sh
    git commit -m "Add a new feature"
    ```
-4. Push to your fork:
+4. Push changes:
    ```sh
    git push origin feature-branch-name
    ```
-5. Open a pull request.
+5. Open a pull request on GitHub.
+
 
